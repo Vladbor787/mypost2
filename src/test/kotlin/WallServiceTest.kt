@@ -12,7 +12,6 @@ class WallServiceTest {
         val result = WallService.add(post).id
         assertEquals(expected, result)
     }
-
     @Test
     fun update_true() {
         val post1 = Post(id = 11)
