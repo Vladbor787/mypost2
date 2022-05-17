@@ -4,5 +4,4 @@ class Donut (
     val placeholder: Placeholder,
     val canPublishFreeCopy: Boolean,
     val editMode: String
-) {
-}
+)

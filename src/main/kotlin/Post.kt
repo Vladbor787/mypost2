@@ -27,7 +27,4 @@ data class Post (
     val isFavorite: Boolean? = null,
     val donut: Donut? = null,
     val postponedId: Int? = null
-){
-
-
-}
+)

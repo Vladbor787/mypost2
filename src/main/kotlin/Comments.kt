@@ -1,8 +1,7 @@
 class Comments (
-    val count: Int,
-    val canPost: Boolean,
-    val groupsCanPost: Boolean,
-    val canClose: Boolean,
-    val canOpen: Boolean
-) {
-}
+    val count:Int? = null,
+    val canPost: Boolean? = null,
+    val groupsCanPost: Boolean? = null,
+    val canClose: Boolean? = null,
+    val canOpen: Boolean? = null,
+)
