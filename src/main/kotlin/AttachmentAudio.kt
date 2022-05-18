@@ -1,0 +1,1 @@
+data class AttachmentAudio(val audio: Audio) : Attachment("audio")
